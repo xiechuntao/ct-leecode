@@ -16,5 +16,7 @@ var prefixCount = function(words, pref) {
   return cnt;
 };
 
+// 1.substring slice substr splice 这些常用截取api可以记忆下，每次要用搞不清谁是谁再去查
+
 const yl = words = [["pay","attention","practice","attend"], "at"]
 console.log(prefixCount(...yl));
